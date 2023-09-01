@@ -23,6 +23,12 @@ Sincronice el [archivo Figma](https://www.figma.com/file/IR938yKiMwblIN1AZcd8ES/
 
 ![Figma](https://raw.githubusercontent.com/anacunha/amplify-embajadoras-cloud/main/content/Figma.png)
 
+## Data Binding
+
+Vincula los componentes de UI al modelo de datos:
+
+![Data Binding](https://raw.githubusercontent.com/anacunha/amplify-embajadoras-cloud/main/content/DataBinding.png)
+
 ## Configuración de la Aplicación
 
 Crea una aplicación React:
