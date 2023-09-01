@@ -1,1 +1,1 @@
-# Embajadoras Cloud - Creación de una Aplicación Full-Stack con AWS Amplify
+# Embajadoras Cloud - Aplicación Full-Stack con AWS Amplify
