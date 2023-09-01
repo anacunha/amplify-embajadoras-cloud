@@ -88,7 +88,7 @@ amplify pull
 
 En App.js, importa y utiliza el componente:
 
-```javscript
+```javascript
 import './App.css';
 import { Flex } from "@aws-amplify/ui-react";
 import {PetCardCollection} from './ui-components';
