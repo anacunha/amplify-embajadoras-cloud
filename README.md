@@ -29,6 +29,12 @@ Vincula los componentes de UI al modelo de datos:
 
 ![Data Binding](https://raw.githubusercontent.com/anacunha/amplify-embajadoras-cloud/main/content/DataBinding.png)
 
+## UI Collection
+
+Seleccione el botón "Create Collection" en el editor de componentes para crear una colección de PetCards:
+
+![UI Collection](https://raw.githubusercontent.com/anacunha/amplify-embajadoras-cloud/main/content/UICollection.png)
+
 ## Configuración de la Aplicación
 
 Crea una aplicación React:
