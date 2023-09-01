@@ -13,7 +13,6 @@ cd adopta-una-mascota
 
 ![Data Model](https://raw.githubusercontent.com/anacunha/amplify-embajadoras-cloud/main/content/DataModel.png)
 
-
 ## Contenido
 
 | Name              | Description                                     | Photo                                                                                                     | Type   |
@@ -25,3 +24,68 @@ cd adopta-una-mascota
 | Tatá              | Jabuti de 13 años 🐢                            | https://raw.githubusercontent.com/anacunha/amplify-embajadoras-cloud/main/content/pets/Tata.jpg           | TURTLE |
 | Tempestade        | Adorable pero nadie puede domarla 🌪            | https://raw.githubusercontent.com/anacunha/amplify-embajadoras-cloud/main/content/pets/Tempestade.jpg     | CAT    |
 
+## UI Library
+
+## Configuración de la Aplicación
+
+Instala la CLI de Amplify:
+
+```shell
+npm install -g @aws-amplify/cli
+```
+
+Instala las dependencias de npm:
+
+```shell
+npm install aws-amplify @aws-amplify/ui-react
+```
+
+Configure Amplify agregando el siguiente código en su archivo index.js:
+
+```javascript
+import { ThemeProvider } from "@aws-amplify/ui-react";
+import { Amplify } from 'aws-amplify';
+
+import awsconfig from './aws-exports';
+
+import "@aws-amplify/ui-react/styles.css";
+import { studioTheme } from "./ui-components";
+
+Amplify.configure(awsconfig);
+```
+
+En App.js, envuelva el componente `<App>` en `<ThemeProvider>`:
+
+```javascript
+<ThemeProvider theme={studioTheme}>
+  <App/>
+</ThemeProvider>
+```
+
+## Uso del Componente
+
+Haz `amplify pull` los componentes más recientes:
+
+```shell
+amplify pull
+```
+
+En App.js, importa y utiliza el componente:
+
+```javscript
+import './App.css';
+import { Flex } from "@aws-amplify/ui-react";
+import {PetCardCollection} from './ui-components';
+
+function App() {
+  return (
+    <div className="App">
+      <Flex justifyContent="center">
+        <PetCardCollection />
+      </Flex>
+    </div>
+  );
+}
+
+export default App;
+```
