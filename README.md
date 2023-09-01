@@ -19,6 +19,10 @@ Crea tu modelo de datos en la consola de Amplify:
 
 ## UI Library
 
+Sincronice el [archivo Figma](https://www.figma.com/file/IR938yKiMwblIN1AZcd8ES/Amplify-UI-Embajadoras-Cloud?type=design&node-id=861%3A3635&mode=design&t=gpCnrIyjoNlT4Iyn-1) como la UI library de su aplicación:
+
+![Figma](https://raw.githubusercontent.com/anacunha/amplify-embajadoras-cloud/main/content/Figma.png)
+
 ## Configuración de la Aplicación
 
 Crea una aplicación React:
