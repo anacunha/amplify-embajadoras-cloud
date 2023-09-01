@@ -1,15 +1,8 @@
 # Embajadoras Cloud - Aplicación Full-Stack con AWS Amplify
 
-## Aplicación
-
-Crea una aplicación React:
-
-```shell
-npx create-react-app@latest adopta-una-mascota
-cd adopta-una-mascota
-```
-
 ## Modelo de Datos
+
+Crea tu modelo de datos en la consola de Amplify:
 
 ![Data Model](https://raw.githubusercontent.com/anacunha/amplify-embajadoras-cloud/main/content/DataModel.png)
 
@@ -27,6 +20,13 @@ cd adopta-una-mascota
 ## UI Library
 
 ## Configuración de la Aplicación
+
+Crea una aplicación React:
+
+```shell
+npx create-react-app@latest adopta-una-mascota
+cd adopta-una-mascota
+```
 
 Instala la CLI de Amplify:
 
